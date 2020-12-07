@@ -1,0 +1,8 @@
+services:
+  database:
+    environment:
+      POSTGRES_DB: farming_monitor
+      POSTGRES_PASSWORD: farming_monitor
+      POSTGRES_USER: farming_monitor
+    image: postgres:13.1
+    ports: ['8000:5432']

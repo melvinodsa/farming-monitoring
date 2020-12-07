@@ -1,0 +1,12 @@
+{
+	"server": {
+		"port": "3000"
+	},
+	"db": {
+		"name": "farming_monitor",
+		"username": "farming_monitor",
+		"password": "farming_monitor",
+		"host": "127.0.0.1",
+		"port": "8000"
+	}
+}
